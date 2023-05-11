@@ -33,6 +33,11 @@ This is vscode-like supertab, if in a snippet, `tab` jump to next, `s-tab` will 
 Unlike [lazyvim.extras.util.project](https://www.lazyvim.org/plugins/extras/util.project).  
 I use my forked [project.nvim](https://github.com/2nthony/project.nvim) to make this like vscode, press the `enter` button will restore the sessions.
 
+## Credits
+
+- lazyvim
+- [coffebar/project.nvim](https://github.com/coffebar/project.nvim)
+
 ## License
 
 MIT
