@@ -36,7 +36,7 @@ I use my forked [project.nvim](https://github.com/2nthony/project.nvim) to make 
 ## Credits
 
 - lazyvim
-- [coffebar/project.nvim](https://github.com/coffebar/project.nvim)
+- [2nthony/project.nvim](https://github.com/2nthony/project.nvim)
 
 ## License
 
