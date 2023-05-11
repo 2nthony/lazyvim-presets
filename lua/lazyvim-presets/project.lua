@@ -9,25 +9,27 @@ return {
     dependencies = {
       "2nthony/project.nvim",
       event = "VeryLazy",
-      patterns = {
-        "!>home",
-        "!=tmp",
-        ".git",
-        "_darcs",
-        ".hg",
-        ".bzr",
-        ".svn",
-        "Makefile",
-        "composer.json",
-        "package.json",
-        "Cargo.toml",
-        "README.md",
-      },
-      exclude_dirs = {
-        "~/.local/*",
-        "~/.cache/*",
-        "~/.cargo/*",
-        "~/.node_modules/*",
+      opts = {
+        patterns = {
+          "!>home",
+          "!=tmp",
+          ".git",
+          "_darcs",
+          ".hg",
+          ".bzr",
+          ".svn",
+          "Makefile",
+          "composer.json",
+          "package.json",
+          "Cargo.toml",
+          "README.md",
+        },
+        exclude_dirs = {
+          "~/.local/*",
+          "~/.cache/*",
+          "~/.cargo/*",
+          "~/.node_modules/*",
+        },
       },
       config = function(_, opts)
         require("project_nvim").setup(opts)
