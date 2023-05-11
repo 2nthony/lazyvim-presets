@@ -30,6 +30,13 @@ return {
           "~/.cargo/*",
           "~/.node_modules/*",
         },
+        on_changed = function()
+          local has = require("lazyvim.util").has
+
+          if has("persistence.nvim") then
+            require("persistence").load()
+          end
+        end,
       },
       config = function(_, opts)
         require("project_nvim").setup(opts)
