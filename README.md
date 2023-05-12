@@ -1,6 +1,6 @@
-# lazyvimvscode
+# lazyvimp
 
-**PERSONAL** LazyVim extras, may change often, to avoid breaking, should always override the options or copy the source code to become your own one.
+**LazyVim P**resets, **PERSONAL** LazyVim extras, may change often, to avoid breaking, should always override the options or copy the source code to become your own one.
 
 My purpose is make it more like vscode.
 
@@ -11,7 +11,7 @@ My purpose is make it more like vscode.
 require('lazy').setup({
   spec = {
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-    { "2nthony/lazyvimvscode"},
+    { "2nthony/lazyvimp"},
     { import = "plugins" },
   }
 })
@@ -20,7 +20,7 @@ require('lazy').setup({
 ## supertab
 
 ```lua
-{ import = "lazyvimvscode.supertab" }
+{ import = "lazyvimp.supertab" }
 ```
 
 Unlike [lazyvim receipes supertab](https://www.lazyvim.org/configuration/recipes#supertab) or nvim-cmp wiki supertab.  
@@ -29,7 +29,7 @@ If in a snippet, `tab` jump to next, `s-tab` will jump back; if NOT in a snippet
 ## project
 
 ```lua
-{ import = "lazyvimvscode.project" }
+{ import = "lazyvimp.project" }
 ```
 
 Unlike [lazyvim.extras.util.project](https://www.lazyvim.org/plugins/extras/util.project).  
@@ -38,7 +38,7 @@ I use my forked [project.nvim](https://github.com/2nthony/project.nvim) to make 
 ## Copy lines action
 
 ```lua
-{ import = "lazyvimvscode.copy-lines-action" }
+{ import = "lazyvimp.copy-lines-action" }
 ```
 
 Simliar to [vscode Copy line up / down](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_copy-line-up-down).  

@@ -1,5 +1,5 @@
 return {
-  "lazyvimvscode",
+  "lazyvimp",
   keys = {
     { "<s-a-j>", ":copy.<cr>" },
     { "<s-a-j>", ":copy.-v:count<cr>gv", mode = { "v" } },
