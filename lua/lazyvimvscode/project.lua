@@ -9,6 +9,9 @@ return {
     dependencies = {
       "2nthony/project.nvim",
       event = "VeryLazy",
+      keys = {
+        { "<leader>fp", cmd, desc = "Projects" },
+      },
       opts = {
         detection_methods = { "pattern" },
         patterns = {
@@ -40,9 +43,6 @@ return {
         require("project_nvim").setup(opts)
         require("telescope").load_extension("projects")
       end,
-      keys = {
-        { "<leader>fp", cmd, desc = "Projects" },
-      },
     },
   },
   {
