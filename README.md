@@ -1,6 +1,8 @@
-# LazyVim Presets
+# lazyvimvscode
 
-**Personal** LazyVim presets.
+**PERSONAL** LazyVim extras, may change often, to avoid breaking, should always override the options or copy the source code to become your own one.
+
+My purpose is make it more like vscode.
 
 ## Usage
 
@@ -9,7 +11,7 @@
 require('lazy').setup({
   spec = {
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-    { "2nthony/lazyvim-presets", lazy = true },
+    { "2nthony/lazyvimvscode", lazy = true },
     { import = "plugins" },
   }
 })
@@ -18,16 +20,16 @@ require('lazy').setup({
 ## supertab
 
 ```lua
-{ import = "lazyvim-presets.supertab" }
+{ import = "lazyvimvscode.supertab" }
 ```
 
 Unlike [lazyvim receipes supertab](https://www.lazyvim.org/configuration/recipes#supertab) or nvim-cmp wiki supertab.  
-This is vscode-like supertab, if in a snippet, `tab` jump to next, `s-tab` will jump back; if NOT in a snippet and cmp menu visible, `tab` will map to the `enter`; otherwise is just a `tab`.
+If in a snippet, `tab` jump to next, `s-tab` will jump back; if NOT in a snippet and cmp menu visible, `tab` will map to the `enter`; otherwise is just a `tab`.
 
 ## project
 
 ```lua
-{ import = "lazyvim-presets.project" }
+{ import = "lazyvimvscode.project" }
 ```
 
 Unlike [lazyvim.extras.util.project](https://www.lazyvim.org/plugins/extras/util.project).  
