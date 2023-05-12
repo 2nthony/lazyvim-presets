@@ -10,6 +10,7 @@ return {
       "2nthony/project.nvim",
       event = "VeryLazy",
       opts = {
+        detection_methods = { "pattern" },
         patterns = {
           "!>home",
           "!=tmp",
@@ -19,10 +20,7 @@ return {
           ".bzr",
           ".svn",
           "Makefile",
-          "composer.json",
-          "package.json",
-          "Cargo.toml",
-          "README.md",
+          "=package.json", -- monorepo
         },
         exclude_dirs = {
           "~/.local/*",
