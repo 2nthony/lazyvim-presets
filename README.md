@@ -35,6 +35,15 @@ If in a snippet, `tab` jump to next, `s-tab` will jump back; if NOT in a snippet
 Unlike [lazyvim.extras.util.project](https://www.lazyvim.org/plugins/extras/util.project).  
 I use my forked [project.nvim](https://github.com/2nthony/project.nvim) to make this like vscode, press the `enter` button will restore the sessions.
 
+## Copy lines action
+
+```lua
+{ import = "lazyvimvscode.copy-lines-action" }
+```
+
+Simliar to [vscode Copy line up / down](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_copy-line-up-down).  
+But map to `s-a-j` and `s-a-k`, support visual mode.
+
 ## Credits
 
 - lazyvim
