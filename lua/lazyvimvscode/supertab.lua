@@ -23,7 +23,7 @@ return {
             luasnip.expand()
           end
         elseif cmp.visible() then
-          pcall(opts.mapping["<CR>"] or opts.mapping["<cr>"])
+          pcall(opts.mapping["<CR>"] or opts.mapping["<cr>"] or cmp.mapping.confirm({ select = true }))
         else
           fallback()
         end
