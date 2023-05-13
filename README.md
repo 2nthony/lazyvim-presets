@@ -1,3 +1,9 @@
+# ⚡ Archived
+
+I am too lazy to maintain separate projects, now I've moved these code back to my [neovim config extras](https://github.com/2nthony/dotfiles/tree/main/.config/nvim/lua/plugins/extras), copy the source code if you need.
+
+---
+
 # lazyvimp
 
 **LazyVim P**resets, **PERSONAL** LazyVim extras, may change often, to avoid breaking, should always override the options or copy the source code to become your own one.
