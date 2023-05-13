@@ -26,6 +26,14 @@ require('lazy').setup({
 Unlike [lazyvim receipes supertab](https://www.lazyvim.org/configuration/recipes#supertab) or nvim-cmp wiki supertab.  
 If in a snippet, `tab` jump to next, `s-tab` will jump back; if NOT in a snippet and cmp menu visible, `tab` will map to the `enter`; otherwise is just a `tab`.
 
+## cmp-esc-unlink-snippet
+
+```lua
+{ import = "lazyvimp.cmp-esc-unlink-snippet" }
+```
+
+When in a snippet, `esc`(back to normal mode) will unlink/break the snippet actions, means no more jump next action.
+
 ## project
 
 ```lua
