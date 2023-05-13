@@ -17,10 +17,10 @@ require('lazy').setup({
 })
 ```
 
-## supertab
+## cmp-supertab
 
 ```lua
-{ import = "lazyvimp.supertab" }
+{ import = "lazyvimp.cmp-supertab" }
 ```
 
 Unlike [lazyvim receipes supertab](https://www.lazyvim.org/configuration/recipes#supertab) or nvim-cmp wiki supertab.  
