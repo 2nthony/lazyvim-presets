@@ -11,7 +11,7 @@ My purpose is make it more like vscode.
 require('lazy').setup({
   spec = {
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-    { "2nthony/lazyvimp"},
+    { "2nthony/lazyvimp" },
     { import = "plugins" },
   }
 })
